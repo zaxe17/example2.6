@@ -274,7 +274,7 @@ h2 {
 	box-shadow: 0 0 10px #CDFFFC, inset 0 0 10px #CDFFFC;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 952px) {
 	h2 {
 		font-size: 12px;
 		position: absolute;
