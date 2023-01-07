@@ -256,9 +256,7 @@ h2 {
 	text-align: justify;
 	margin: 35px 400px 0 400px;
 	padding: 15px;
-	border: solid 2px #CDFFFC;
 	border-radius: 10px;
-	background-color: rgba(68, 68, 68, 0.2);
 }
 
 .boxbox {
@@ -275,18 +273,40 @@ h2 {
 }
 
 @media (max-width: 952px) {
+	.codm img.image {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translateX(-50%) translateY(-50%);
+		width: 50%;
+		margin-top: 50px;
+	}
+	.codm img.image2 {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translateX(-50%) translateY(-50%);
+		height: 270px;
+		width: 50%;
+		margin-top: 50px;
+	}
 	h2 {
-		font-size: 12px;
+		font-size: 13px;
 		position: absolute;
 		z-index: 1;
 		text-align: justify;
-		margin: 35px 35px 0 35px;
+		margin: 0 230px 0 230px;
 		padding: 20px 10px 20px 10px;
 		margin-top: 10px;
-		box-shadow: 0 0 10px #CDFFFC, inset 0 0 10px #CDFFFC;
 	}
 	.boxbox {
-		display: none;
+		margin-top: 30px;
+		display: block;
+		position: relative;
+		left: -20px;
+		border-radius: 20px;
+		height: 80vh;
+		width: 80%;
 	}
 }
 
